@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+let superHeroArray = [spiderman, captain, groot]
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            ForEach(superHeroArray) { hero in
+                HeroView(hero: hero)
+            }
+        }
     }
 }
 

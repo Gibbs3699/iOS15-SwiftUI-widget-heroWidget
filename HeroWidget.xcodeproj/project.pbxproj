@@ -13,6 +13,7 @@
 		53D0E5CE27FD9CAE006091C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D0E5CD27FD9CAE006091C4 /* Preview Assets.xcassets */; };
 		53D0E5D527FD9EAA006091C4 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0E5D427FD9EAA006091C4 /* Superhero.swift */; };
 		53D0E5D727FDA038006091C4 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0E5D627FDA038006091C4 /* CircularImageView.swift */; };
+		53D0E5D927FDA160006091C4 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0E5D827FDA160006091C4 /* HeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		53D0E5CD27FD9CAE006091C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53D0E5D427FD9EAA006091C4 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
 		53D0E5D627FDA038006091C4 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		53D0E5D827FDA160006091C4 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				53D0E5CC27FD9CAE006091C4 /* Preview Content */,
 				53D0E5D427FD9EAA006091C4 /* Superhero.swift */,
 				53D0E5D627FDA038006091C4 /* CircularImageView.swift */,
+				53D0E5D827FDA160006091C4 /* HeroView.swift */,
 			);
 			path = HeroWidget;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				53D0E5D727FDA038006091C4 /* CircularImageView.swift in Sources */,
 				53D0E5C727FD9CAC006091C4 /* HeroWidgetApp.swift in Sources */,
 				53D0E5D527FD9EAA006091C4 /* Superhero.swift in Sources */,
+				53D0E5D927FDA160006091C4 /* HeroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

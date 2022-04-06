@@ -15,7 +15,8 @@ struct CircularImageView: View {
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.black, lineWidth: 5)) //stroke to leave just bounder
-            .shadow(radius: 10)
+            .shadow(radius: 15)
+        
     }
 }
 
