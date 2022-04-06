@@ -11,6 +11,8 @@
 		53D0E5C927FD9CAC006091C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0E5C827FD9CAC006091C4 /* ContentView.swift */; };
 		53D0E5CB27FD9CAE006091C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D0E5CA27FD9CAE006091C4 /* Assets.xcassets */; };
 		53D0E5CE27FD9CAE006091C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D0E5CD27FD9CAE006091C4 /* Preview Assets.xcassets */; };
+		53D0E5D527FD9EAA006091C4 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0E5D427FD9EAA006091C4 /* Superhero.swift */; };
+		53D0E5D727FDA038006091C4 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0E5D627FDA038006091C4 /* CircularImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		53D0E5C827FD9CAC006091C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53D0E5CA27FD9CAE006091C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D0E5CD27FD9CAE006091C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53D0E5D427FD9EAA006091C4 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		53D0E5D627FDA038006091C4 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				53D0E5C827FD9CAC006091C4 /* ContentView.swift */,
 				53D0E5CA27FD9CAE006091C4 /* Assets.xcassets */,
 				53D0E5CC27FD9CAE006091C4 /* Preview Content */,
+				53D0E5D427FD9EAA006091C4 /* Superhero.swift */,
+				53D0E5D627FDA038006091C4 /* CircularImageView.swift */,
 			);
 			path = HeroWidget;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53D0E5C927FD9CAC006091C4 /* ContentView.swift in Sources */,
+				53D0E5D727FDA038006091C4 /* CircularImageView.swift in Sources */,
 				53D0E5C727FD9CAC006091C4 /* HeroWidgetApp.swift in Sources */,
+				53D0E5D527FD9EAA006091C4 /* Superhero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
