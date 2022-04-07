@@ -11,7 +11,7 @@ let superHeroArray = [spiderman, captain, groot]
 
 struct ContentView: View {
     
-    @AppStorage("hero", store: UserDefaults(suiteName: "group.Kamonpan.mac.HeroWidget"))
+    @AppStorage("hero", store: UserDefaults(suiteName: "group.Kamonpan.HeroWidget.app"))
     
     var heroData : Data = Data()
     
